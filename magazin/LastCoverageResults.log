@@ -1,0 +1,21 @@
+[2023-04-09 03:53:08] [info] Start Program:
+Path:"D:\OP\magazin\x64\Debug\magazin.exe"
+Arguments:
+Working directory: "D:\OP\magazin\"
+Modules: Selected: D:\OP\magazin\x64\Debug\magazin.exe Excluded: 
+Sources: Selected: D:\OP\magazin Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\TUF\AppData\Local\Temp\1daecsmc.wkc 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-04-09 03:53:08] [info] Module: D:\OP\magazin\x64\Debug\magazin.exe is selected because it matches selected pattern: D:\OP\magazin\x64\Debug\magazin.exe
+[2023-04-09 03:53:09] [info] ----------------------------------------------------
+[2023-04-09 03:53:09] [info] Coverage binary generated in file: C:\Users\TUF\AppData\Local\Temp\1daecsmc.wkc
+[2023-04-09 03:53:09] [info] ----------------------------------------------------

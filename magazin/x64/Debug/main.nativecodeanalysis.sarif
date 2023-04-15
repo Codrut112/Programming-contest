@@ -1,0 +1,495 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'this->e'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OP/magazin/vector.h"
+                },
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 3,
+                  "endLine": 77,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Produs>::{ctor}",
+                  "decoratedName": "??0?$VectorDinamic@VProdus@@@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OP/magazin/vector.h"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OP/magazin/vector.h"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OP/magazin/vector.h"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<ot.n')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OP/magazin/vector.h"
+                          },
+                          "region": {
+                            "startLine": 77,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OP/magazin/vector.h"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OP/magazin/vector.h"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<ot.n')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OP/magazin/vector.h"
+                          },
+                          "region": {
+                            "startLine": 77,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'Produs::=' (declared at d:\\op\\magazin\\produs.h:46)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OP/magazin/vector.h"
+                          },
+                          "region": {
+                            "startLine": 77,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'this->e[1]', (readable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'e'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OP/magazin/vector.h"
+                },
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 3,
+                  "endLine": 93,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VectorDinamic<Produs>::=",
+                  "decoratedName": "??4?$VectorDinamic@VProdus@@@@QEAAAEAV0@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OP/magazin/vector.h"
+                          },
+                          "region": {
+                            "startLine": 88,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OP/magazin/vector.h"
+                          },
+                          "region": {
+                            "startLine": 91,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OP/magazin/vector.h"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OP/magazin/vector.h"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<ot.n')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OP/magazin/vector.h"
+                          },
+                          "region": {
+                            "startLine": 93,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OP/magazin/vector.h"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OP/magazin/vector.h"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<ot.n')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OP/magazin/vector.h"
+                          },
+                          "region": {
+                            "startLine": 93,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'Produs::=' (declared at d:\\op\\magazin\\produs.h:46)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/OP/magazin/vector.h"
+                          },
+                          "region": {
+                            "startLine": 93,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'e[1]', (readable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Produs::pret' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/OP/magazin/produs.h"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 2,
+                  "endLine": 15,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Produs::{ctor}",
+                  "decoratedName": "??0Produs@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Produs::pret"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32217.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/OP/magazin/vector.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "48b81285091c215ee860472db2f02e78803ad8f6c6e028b7dd60eab5e5dbd5f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/OP/magazin/produs.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e788634f036c2968b3d7766249e18621db503a24718cdc25d74b4fac64da8c38"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/op/magazin/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "0e374fb7a4f6e2e373a4a868e383efedf2dc5ae0840d0fb9608e33aab0f55528"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/op/magazin/ui.h"
+          },
+          "hashes": {
+            "sha-256": "ddd7ab7c7a3f7b16e51d969f2d38695eb95623efb16ebc16918acc13a1fc1a59"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/op/magazin/service.h"
+          },
+          "hashes": {
+            "sha-256": "ed74acdfeb592c99774580bddd4aa83ac67d4185b660616e8990ec1d159444d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/op/magazin/repo.h"
+          },
+          "hashes": {
+            "sha-256": "931c4164d76b637daefb9190f7d4e2cf1232038fbe065e70d5a8f5442ffbbe8a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/op/magazin/validare.h"
+          },
+          "hashes": {
+            "sha-256": "567baee178ee62a205eb1ae8732575cb176d8c6e8c0a302151a18341712fea2e"
+          }
+        }
+      ]
+    }
+  ]
+}

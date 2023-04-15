@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="Produs" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAACIAEACIAIACAAAAAGAAAAAAAQCIAAAAA=</HashCode>
+      <FileName>produs.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Repo" Collapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAIAAAAAIAAAAAJAAAAAAABAAAAAABEAAA=</HashCode>
+      <FileName>repo.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="produse" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RepoException" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAEAAAQAAAAAAAA=</HashCode>
+      <FileName>repo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magazin" Collapsed="true">
+    <Position X="6" Y="6.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACAIQAAAAJIAAAQAAAAAAAAAAABAAIBEAAA=</HashCode>
+      <FileName>service.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="rep" />
+      <Field Name="validator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UI" Collapsed="true">
+    <Position X="6" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEgAgAAgAAAAAABAAAAAAACAAABAAAAAAAAAAEAA=</HashCode>
+      <FileName>ui.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mag" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ValidError" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAEAAAQAAAAAAAA=</HashCode>
+      <FileName>validare.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Validator" Collapsed="true">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>validare.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VectorDinamic&lt;ElementT&gt;" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAACAAAAAAAAAIUAQAARAAAAAAACEMEgAAAAAAA=</HashCode>
+      <FileName>vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IteratorVector&lt;ElementT&gt;" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAQCAAAYAIAAAAAAAAAAAgAAIAAAQ=</HashCode>
+      <FileName>vector.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="vec" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

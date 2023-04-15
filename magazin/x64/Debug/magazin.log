@@ -1,0 +1,13 @@
+﻿  main.cpp
+  produs.cpp
+  repo.cpp
+  service.cpp
+  ui.cpp
+  validare.cpp
+  vector.cpp
+  Running Code Analysis for C/C++...
+  Generating Code...
+  magazin.vcxproj -> D:\OP\magazin\x64\Debug\magazin.exe
+D:\OP\magazin\vector.h(77): warning C6385: Reading invalid data from 'this->e'.
+D:\OP\magazin\vector.h(93): warning C6385: Reading invalid data from 'e'.
+D:\OP\magazin\produs.h(15): warning C26495: Variable 'Produs::pret' is uninitialized. Always initialize a member variable (type.6).

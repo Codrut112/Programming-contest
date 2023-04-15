@@ -1,0 +1,21 @@
+[2023-03-30 07:25:14] [info] Start Program:
+Path:"D:\OP\lab5\x64\Debug\lab5.exe"
+Arguments:
+Working directory: "D:\OP\lab5\"
+Modules: Selected: D:\OP\lab5\x64\Debug\lab5.exe Excluded: 
+Sources: Selected: D:\OP\lab5 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\TUF\AppData\Local\Temp\iygsplcf.gnb 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-03-30 07:25:14] [info] Module: D:\OP\lab5\x64\Debug\lab5.exe is selected because it matches selected pattern: D:\OP\lab5\x64\Debug\lab5.exe
+[2023-03-30 07:25:14] [info] ----------------------------------------------------
+[2023-03-30 07:25:14] [info] Coverage binary generated in file: C:\Users\TUF\AppData\Local\Temp\iygsplcf.gnb
+[2023-03-30 07:25:14] [info] ----------------------------------------------------

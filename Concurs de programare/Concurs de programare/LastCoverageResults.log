@@ -1,0 +1,21 @@
+[2023-03-23 10:38:42] [info] Start Program:
+Path:"C:\\OOP\\Concurs de programare\\Debug\\Concurs de programare.exe"
+Arguments:
+Working directory: "C:\\OOP\\Concurs de programare\\Concurs de programare\\"
+Modules: Selected: C:\OOP\Concurs de programare\Debug\Concurs de programare.exe Excluded: 
+Sources: Selected: C:\OOP\Concurs de programare\Concurs de programare Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: binary C:\Users\Senpai\AppData\Local\Temp\zsrsixrn.foi 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-03-23 10:38:42] [info] Module: C:\OOP\Concurs de programare\Debug\Concurs de programare.exe is selected because it matches selected pattern: C:\OOP\Concurs de programare\Debug\Concurs de programare.exe
+[2023-03-23 10:38:42] [info] ----------------------------------------------------
+[2023-03-23 10:38:42] [info] Coverage binary generated in file: C:\Users\Senpai\AppData\Local\Temp\zsrsixrn.foi
+[2023-03-23 10:38:42] [info] ----------------------------------------------------
