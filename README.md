@@ -1,2 +1,2 @@
 # OP
-Concurs de programare-contributie=undo
+C project with dynamic allocation.
